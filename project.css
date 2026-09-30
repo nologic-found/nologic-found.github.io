@@ -1,0 +1,25 @@
+.project-card {
+    background-color: var(--bg-color);
+    border: 1px solid rgba(74, 104, 98, .15);
+    border-left: 3px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    height: 100%;
+}
+
+.project-card h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.row + .row {
+    margin-top: .5rem;
+}
+
+@media (max-width: 768px) {
+    .row + .row {
+        margin-top: 0.25rem;
+    }
+}
